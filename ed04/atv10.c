@@ -32,8 +32,10 @@ int main() {
     somaSimbolos = simbolosAlfa(palavra, n, somaSimbolos);
     
     printf("\n Quantidade na palavra: %d", somaSimbolos);
+    total += somaSimbolos;
+    somaSimbolos=0;
   }
-  total += somaSimbolos;
+  
   printf("\n Quantidade total de simbolos: %d", total);
   return 0;
 }

@@ -18,7 +18,7 @@
 int main(){
 
   FILE *file;
-  file = fopen("dadosExerc08.txt", "w");
+  file = fopen("dadosExerc09.txt", "w");
 
   int n, x, y;
 
@@ -36,7 +36,7 @@ int main(){
   }
   fclose(file);
 
-  file = fopen("dadosExerc08.txt", "r");
+  file = fopen("dadosExerc09.txt", "r");
 
   printf("\n Digite um valor pra buscar no array: ");
   scanf("%d", &y);
